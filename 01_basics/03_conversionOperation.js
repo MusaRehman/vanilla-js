@@ -21,17 +21,21 @@
 
 // Operations
 
-let value =3;
-let negValue = -value
-// console.log(negValue);
-// console.log(2**3);
-// console.log(2%8); //2
+// let value =3;
+// let negValue = -value
+// // console.log(negValue);
+// // console.log(2**3);
+// // console.log(2%8); //2
 
-let str1="hello";
-let str2 =" yama";
-let str3 = str1 + str2;
-console.log(str3);
+// let str1="hello";
+// let str2 =" yama";
+// let str3 = str1 + str2;
+// console.log(str3);
 
-//We Face  a Prolbem in
-console.log("1"+99);
-console.log("1"+2+2);
+// //We Face  a Prolbem in
+// console.log("1"+99);
+// console.log("1"+2+2); //122
+// console.log("1"+2+"2");//122
+// console.log(1+2+"2"); //32
+
+console.log(+true)

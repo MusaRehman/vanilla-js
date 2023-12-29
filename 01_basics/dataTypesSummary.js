@@ -44,5 +44,3 @@
 
 //we can create shallow copy to avoid this
 // let userTwo = {...user}
-
-

@@ -55,5 +55,5 @@
 
 // only == performs  coercion
 
-console.log('2'==2);
-console.log('2'===2);
+console.log("2" == 2);
+console.log("2" === 2);

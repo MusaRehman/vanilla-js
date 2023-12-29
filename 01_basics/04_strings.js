@@ -9,10 +9,9 @@
 //can use string methods
 // console.log(`${name} and ${repoCount}`);
 
-let str="NMR";
+let str = "NMR";
 
-let str1= new String('NMR');
+let str1 = new String("NMR");
 
 console.log(str == str1); //True
 console.log(str === str1); //False
-

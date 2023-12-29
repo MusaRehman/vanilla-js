@@ -38,4 +38,22 @@
 // console.log("1"+2+"2");//122
 // console.log(1+2+"2"); //32
 
-console.log(+true)
+// console.log(+true)
+// console.log("02">1);
+// console.log("02"<1);
+
+//unpredictable behaviour
+// console.log(null>0); //false
+// console.log(null==0); //false
+// console.log(null>=0); //true
+
+// Reason:
+// ==, Equity and comparison < > <= ... works diff
+// because comparison convert null in a number, 0
+
+// console.log(undefined>=0);
+
+// only == performs  coercion
+
+console.log('2'==2);
+console.log('2'===2);

@@ -45,4 +45,4 @@ console.log(newStr.trim());
 const url = "http://go%20ogle.com";
 console.log(url.replace('%20','-'));
 
-console.log(url.includes('gle'));
+console.log(url.includes('goo'));
